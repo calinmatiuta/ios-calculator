@@ -3,29 +3,14 @@ h1 {
 }
 p {
   border-style: solid;
-  border-color: green;
+
   border-width: thick;
-  font-size: large;
-}
-/*
-    tag name
-*/
-li,
-p,
-h1 {
-  background-color: red;
 }
 
-/*
-    direct children
-*/
 div > span {
   border: 2px solid blue;
 }
 
-/*
-    al levels child
-*/
 
 
 caption {
@@ -42,53 +27,13 @@ caption {
   font-size: 24px;
 }
 
-.button.active {
-  background-color: orangered;
-}
-td {
-  font-weight: bold;
-}
-
-caption.table-red {
-  background-color:black;
-}
-
-#calculator1 td.background-yellow {
-  background-color: darkgray;
-}
-
-td.background-yellow {
-  background-color: yellowgreen!important; border-radius: 50%
-}
-/* .text-uppercase{
-    text-transform: uppercase
-} */
-
-div, p, h1, td {
-    font-size: 20px;
-}
-
-[class="text-uppercase"]{
-    text-transform: uppercase
-}
-
-[id="calculator1"] td[class="background-yellow"] {
-    background-color: darkgray;
-  }
-
-  #calculator1 td.background-yellow {
-
-  }
-
-  [name="calculator1"]
-  {
-
-  }
-.calculator1.body{
-     color: white 
-  }
 
 
-  /*
-  this is a comment
-  */
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+h1 {
+    background-color: #cccc99;
+  }
+  p {
+    border-style: solid;
+  
+    border-width: thick;
+  }
+  
+  div > span {
+    border: 2px solid blue;
+  }
+  
+  
+  
+  caption {
+    background-color: lightgrey;
+  }
+  
+  .text-italic {
+    font-style: italic;
+  }
+  
+  .button {
+    background: #cccc99;
+    font-style: italic;
+    font-size: 24px;
+  }
+  

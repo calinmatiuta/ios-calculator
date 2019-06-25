@@ -1,0 +1,43 @@
+#calculator1 {
+  font-family: "helvetica neue";
+}
+
+th {
+  color: white;
+  font-size: 40px;
+  border: none;
+}
+
+td {
+  color: white;
+  border-radius: 50%;
+  border: none;
+  width:40px;
+  height:40px;
+  
+}
+#radius {
+    width: 80px;
+
+  border-top-left-radius: 2cm;
+  border-top-right-radius: 2cm;
+  border-bottom-left-radius: 2cm;
+  border-bottom-right-radius: 2cm;
+  text-align: left;
+  padding-left:18px
+}
+
+.grey {
+  background-color: rgb(212, 203, 203);
+  color: black;
+}
+.orange {
+  background-color: orange;
+}
+.dark-grey {
+  background-color: rgb(54, 53, 53);
+}
+
+#calculator1 {
+  background-color: black;
+}
