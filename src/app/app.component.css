@@ -65,7 +65,7 @@ td.background-yellow {
 } */
 
 div, p, h1, td {
-
+    font-size: 20px;
 }
 
 [class="text-uppercase"]{
@@ -88,3 +88,7 @@ div, p, h1, td {
      color: white 
   }
 
+
+  /*
+  this is a comment
+  */
