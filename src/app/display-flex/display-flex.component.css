@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: red;
+  border: 1px solid black;
+}
+.text {
+  background-color: aqua;
+  border: 1px solid black;
+width:70%;
+ 
+}
+.text1,
+.text2 {
+width:15%;
+/* flex-shrink:0; */
+
+}
+.immage-responsive {
+  width: 100%;
+}

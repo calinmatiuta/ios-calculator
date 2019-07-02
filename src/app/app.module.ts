@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { PlaygroundComponent } from './playground/playground.component';
 import { AppRoutingModule } from './app-routing.module';
+import { DisplayFlexComponent } from './display-flex/display-flex.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalculatorComponent,
-    PlaygroundComponent
+    PlaygroundComponent,
+    DisplayFlexComponent
   ],
   imports: [
     BrowserModule,
