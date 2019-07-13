@@ -1,0 +1,49 @@
+<!doctype html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .road{
+            width: 100vw;
+            height: calc(100vh - 25px);
+            background-color: gray
+        }
+        .car {
+            width: 300px;
+            height: 100px;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: flex-end;    
+            position: absolute;   
+            left: 10px;     
+        }
+        .left-blinker, .right-blinker{
+            width: 30px;
+            height: 30px;
+            background-color: white;
+        }
+    </style>
+ 
+</head>
+  
+  <body>      
+      <section>
+          <button id="volan">vireaza</button>
+          <button id="acceleratie">accelereaza</button>
+          <button id="frana">franeaza</button>
+          <button id="semnalizare">semnalizeaza</button>
+          <button id="reverse">reverse</button>
+          
+          <div class="road">
+              <div class="car" id="car">
+                  <div class="left-blinker"></div>
+                  <div class="right-blinker"></div>
+              </div>
+          </div>
+      </section>
+
+      <script src="drive.js"></script>
+ </body>
+</html>
